@@ -1,0 +1,24 @@
+    QA 1: What is client-side and server-side in web development, and what is the main difference between the two?
+    
+    Ans. Client-side and server-side are two components in web development. Client-side refers to the code and processes that run on the user's device (usually a web browser), while server-side refers to the code and processes that run on the server hosting the website or web application. The main difference between the two is that client-side operations are performed on the user's device, while server-side operations are performed on the server.
+
+    QA 2: What is an HTTP request and what are the different types of HTTP requests?
+
+    Ans. An HTTP request is a communication protocol used by web browsers to interact with web servers. It is used to request resources from a server and receive responses. There are several types of HTTP requests:
+        GET: Retrieves a resource from the server.
+        POST: Sends data to the server to create a new resource.
+        PUT: Sends data to the server to update an existing resource.
+        DELETE: Requests the server to delete a specified resource.
+        PATCH: Sends partial data to the server to update an existing resource.
+
+    QA 3: What is JSON and what is it commonly used for in web development?
+
+    Ans. JSON (JavaScript Object Notation) is a lightweight data interchange format. It is commonly used in web development to transmit and store data between a server and a client. JSON is human-readable and easy for machines to parse and generate. It is often used for sending and receiving data in API (Application Programming Interface) interactions.
+
+    QA 4: What is a middleware in web development, and give an example of how it can be used.
+
+    Ans. Middleware in web development refers to software components that sit between the web application and the server. It provides a way to handle common functionalities and modify the incoming or outgoing requests and responses. For example, in an Express.js application, middleware can be used for tasks such as authentication, logging, error handling, or parsing request bodies.
+
+    QA 5: What is a controller in web development, and what is its role in the MVC architecture?
+
+    Ans. In web development, a controller is a component that handles user interactions and controls the flow of data in the MVC (Model-View-Controller) architecture. It receives input from the user, interacts with the model to retrieve or modify data, and determines the appropriate view to display. The controller acts as the intermediary between the user, the model, and the view, ensuring separation of concerns and maintaining the application's logic.
